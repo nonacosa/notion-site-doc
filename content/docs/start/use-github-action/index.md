@@ -31,6 +31,7 @@ weight: 8
 直接点击：use the template 创建自己的仓库即可，默认实现流程如下：
 
 {{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-hugo-website-builder/blob/main/.github/workflows/builder.yml"  des="GitHub is where people build software. More than 94 million people use GitHub to discover, fork, and contribute to over 330 million projects."  title="Build software better, together"  >}}
+
 - 创建 ubuntu 容器
 
 - 设置每天执行一次
@@ -47,7 +48,8 @@ weight: 8
 
 以上所有的配置用户可以根据自己的需求自行调整，参考文档：
 
-{{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://docs.github.com/assets/cb-803/images/site/favicon.svg" url="https://docs.github.com/en/actions"  des="Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow."  title="GitHub Actions Documentation - GitHub Docs"  >}}
+{{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://docs.github.com/%5Cen/assets/cb-803/images/site/favicon.svg" url="https://docs.github.com/en/actions"  des="Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow."  title="GitHub Actions Documentation - GitHub Docs"  >}}
+
 {{< tip >}}
 
 至此，我们已经拥有了一个每天不断从 Notion 更新的静态网站仓库，我们可以在手机、平板、电脑等任何设备和平台对网站进行编辑和管理。
