@@ -1,12 +1,10 @@
 notion:
-  databaseId: df7fb0e4e0114268b973f9d3e9a39982
+  databaseId: 2bd00e5dfff3449ba81e0142f8af9bbb
   filterProp: Status
   filterValue:
     - Finished
     - Published
+    - RePublish
   publishedValue: Published
 markdown:
-  shortcodeSyntax: hugo
-  postSavePath: ./content/post
-  mediaSavePath: ./static/image
-  imagePublicLink: /image
+  homePath: ./
