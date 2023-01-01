@@ -42,7 +42,7 @@ jobs:
       - name: Format documents
         uses: creyD/prettier_action@v3.1
         with:
-          prettier_options: --write ./content/post/**/*.md
+          prettier_options: --write ./content/**/*.md
           commit_message: 'notion-site: update articles (auto)'
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
