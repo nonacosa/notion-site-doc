@@ -1,42 +1,48 @@
 ---
-title: doc-test
-status: Finished
-position: null
+title: Notion-Site
+status: Published
+position: content
 categories: []
 tags: []
 keywords: []
-createat: "2022-12-28T15:45:00+07:00"
-author: 庄文达
+createat: "2022-12-28T14:16:00+07:00"
+author: nonacosa
 istranslated: true
-lastmod: "2022-12-28T15:47:00+07:00"
+lastmod: "2022-12-30T14:29:00+07:00"
 description: ""
 draft: null
 expirydate: null
 show_comments: false
 slug: ""
 image: null
+weight: null
 ---
 {{< block "grid-2" >}}
 {{< column >}}
 
-# 让你的 **Notion** 动起来
-Compose is a lean `Hugo` domentation theme, inspired by [forestry.io](https://forestry.io/docs/welcome/).
+# 让你的 Notion 与网页联动起来
+ ***Notion Site*** 是基于 **[Notion](https://www.notion.so/)** 和 **[Hugo](https://gohugo.io/)** 深度绑定的一款定制化网站的开源软件，您可以在 Hugo 模板商店的数百个模板中找到喜欢的模板作为您的博客或文档站。
 
-{{< tip "warning" >}}
-Feel free to open a [PR](https://github.com/onweru/compose/pulls), raise an [issue](https://github.com/onweru/compose/issues/new/choose "Open a Github Issue")(s) or request new feature(s).
-
-<!--more-->{{< /tip >}}
-
-{{< tip >}}
-这里随便写点什么
+<!--more-->{{< tip >}}
+通过 **[Vercel](https://vercel.com/)** 与 **[Github Action](https://docs.github.com/en/actions)** 的能力，只需要一次配置，随时随地使用任何设备进行编辑。
 {{< /tip >}}
 
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+{{< tip "warning" >}}
+如果您是开发者，欢迎提供宝贵的 ***[PR](https://github.com/pkwenda/notion-site/pulls)*** 或 ***[ISSUE](https://github.com/pkwenda/notion-site/issues)*** 。
+
+{{< /tip >}}
+
+
+{{< button "docs" "Read the Docs" >}}
+
+{{< button "[https://github.com/onweru/compose](https://github.com/pkwenda/notion-site)" "Download Notion-Site" >}}
 {{< /column >}}
 
 {{< column >}}
 
-![](media/s3.us-west-2.amazonaws.com_b0b2cefb-e609-43c2-88b2-28043adeec06.png)
+![](media/s3.us-west-2.amazonaws.com_ec7ebeb5-f938-4ca7-b332-96b82a450bb7.png)
 
 {{< /column >}}
+
+
 
