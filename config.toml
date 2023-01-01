@@ -1,9 +1,9 @@
-baseURL = "https://ns-doc.evn.fuck/"
+baseURL = "https://ns-doc.evn.wtf/"
 title = "Compose Docs"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
 # comment out line below, and uncomment the line after it if you prefer to load the theme normally
-theme =["notion-site-theme", "compose"]  # edit this if you'ld rather use a fork of this repo
+theme =["compose","notion-site-theme"]  # edit this if you'ld rather use a fork of this repo
 # theme = "compose"
 enableGitInfo = true
 
