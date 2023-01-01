@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-29T08:17:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-01T08:45:00+07:00"
+lastmod: "2023-01-01T17:24:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -17,85 +17,95 @@ slug: ""
 image: null
 weight: null
 ---
+Notion-Site 是一个打通 Notion 与 Hugo 的自动建站工具，它比 Notion 默认提供的 Share 功能更适用于构建网站，我们可以使用 Hugo 提供的 200 多种类型的主题创建我们的网站。只需要一次配置之后，无需记忆命令、无需服务器、我们只需要在任何设备的 Notion 中正常写文章就可以随时随地编辑网站。
 
-Notion 因为自带分享链接，所以近几年我们通常直接分享 Notion 的地址作为我们的博客、文档站，或者使用类似 **_[Notion-Blog](/3dab2163acdb415aaf6514b3c00368c5)_** 等开源方案做 1:1 的转换。
+
+
+<!--more-->![](media/s3.us-west-2.amazonaws.com_1dbf46ad-691b-4b0e-9cf7-fb3140b37958.png)
+
+![](media/s3.us-west-2.amazonaws.com_a8bac8cf-c661-48ef-adb2-46e441bee15a.png)
+
+### Notion 做为博客的不足
+Notion 因为自带分享链接，所以近几年我们通常直接分享 Notion 的地址作为我们的博客、文档站，或者使用类似 ***[Notion-Blog](/3dab2163acdb415aaf6514b3c00368c5)*** 等开源方案做 1:1 的转换。
 
 也可以在 **[Cloudflare Web Worker](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup)** 提供的能力绑定域名、CDN 提速等等：
 
-<!--more-->- [using-the-notion-page-as-a-personal-website-with-your-domain-on-cloudflare](https://dev.to/koddr/using-the-notion-page-as-a-personal-website-with-your-domain-on-cloudflare-1pi7)
+{{< bookmark image="https://res.cloudinary.com/practicaldev/image/fetch/s--9mAvnDqk--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pnivzp4qvskmpr5ppk4f.png" icon="https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png" url="https://dev.to/koddr/using-the-notion-page-as-a-personal-website-with-your-domain-on-cloudflare-1pi7"  des="Introduction   Hi, DEV people! 🙂 Today, I give you a handy step-by-step guide to help you..."  title="🌐 Using the Notion page as a personal website with your domain on Cloudflare"  >}}
 
-**博客示例** ：[https://zhuangwenda.notion.site/73909416ef114124adb89f9c56275561](https://zhuangwenda.notion.site/73909416ef114124adb89f9c56275561)
 
-![](media/s3.us-west-2.amazonaws.com_7864bde1-bda7-49ea-a6df-866ab165b5cb.png)
+###  **Notion 缺失的功能：** 
+- <span style="color: rgba(212, 76, 71, 1);">没有 RSS 订阅</span>
 
-{{< tip "warning" >}}
+- <span style="color: rgba(212, 76, 71, 1);">加载的 notion 资源太多，打开文章较慢</span>
 
-**Notion 制作的博客方便编辑，但是相比传统博客始终有几点问题无法解决：**
+- <span style="color: rgba(212, 76, 71, 1);">中国大陆访问速度慢</span>
 
-{{< /tip >}}
+- <span style="color: rgba(212, 76, 71, 1);">文章链接太长，如想缩短需要针对每个文章使用</span><span style="color: rgba(212, 76, 71, 1);"> **[Cloudflare Web Worker](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup)** </span><span style="color: rgba(212, 76, 71, 1);">做映射</span>
 
-- <span style="background-color: rgba(253, 235, 236, 1);">没有 RSS 订阅</span>
+- <span style="color: rgba(212, 76, 71, 1);">缺失很多博客的要素：时间轴、分类、标签，更像是笔记</span>
 
-- 加载的 notion 资源太多，<span style="background-color: rgba(253, 235, 236, 1);">打开文章较慢</span>
+- <span style="color: rgba(212, 76, 71, 1);">只有 Notion 的风格，主题样式太单一，无法定制化</span>
 
-- <span style="background-color: rgba(253, 235, 236, 1);">中国大陆访问速度慢</span>
 
-- <span style="background-color: rgba(253, 235, 236, 1);">文章链接太长</span>，如想缩短需要针对每个文章使用 **[Cloudflare Web Worker](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup)** 做映射
 
-- <span style="background-color: rgba(253, 235, 236, 1);">缺失很多博客的要素</span>：时间轴、分类、标签，更像是笔记
+### Hugo 的缺点
+- <span style="color: rgba(212, 76, 71, 1);"> **shortcodes** </span><span style="color: rgba(212, 76, 71, 1);">很难维护，在 MD 编辑器中不伦不类</span>
 
-- 只有 Notion 的风格，<span style="background-color: rgba(253, 235, 236, 1);">主题样式太单一</span>，无法定制化
+- <span style="color: rgba(212, 76, 71, 1);">备份需要成本</span>
 
-当然，如果能接受上面的缺点，Notion Blog 是最方便的选择。
+- <span style="color: rgba(212, 76, 71, 1);">需要维护一些部署脚本</span>
 
-{{< tip "warning" >}}
+- <span style="color: rgba(212, 76, 71, 1);"> **Hugo** </span><span style="color: rgba(212, 76, 71, 1);">很难用任何设备（手机，平板）维护网站文章</span>
 
-如果使用传统博客的方式，也同样有不足：
 
-{{< /tip >}}
-
-- Hugo 类的平台很多 shortcodes<span style="background-color: rgba(253, 235, 236, 1);">需要记忆语法，手动转义</span>，在 MD 编辑器中不伦不类
-
-- <span style="background-color: rgba(253, 235, 236, 1);">需要自己实现备份</span>
-
-- WordPress Nginx 等方式需要<span style="background-color: rgba(253, 235, 236, 1);">购买资源或主题</span>
-
-- 每次部署需要手动触发，<span style="background-color: rgba(253, 235, 236, 1);">需要维护一些命令或脚本</span>
-
-- Hugo 很难用任何设备（手机，平板）维护网站文章
 
 在希望实现上面的需求的同时，保留 Notion 的便利性，与 Hugo 平台深度绑定，开发了 Notion-Site。
 
-### 流程图
 
-{{< mermaid >}}
-graph TD
-A[Notion DataBase] -->|Notion-Site| B(Get Pages)
-B --> C{Process Pages To Hugo}
-C -->|setting| D[Hugo Setting Files]
-C -->|Article| E[Hugo Content Files]
-E -->|Folder| G[Folder]
-E -->|Article| H[Markdown files]
-E -->|Media| I[Downlaod Meida files]
-{{< /mermaid >}}
-
-{{< mermaid >}}
-graph TD
-
-    Hugo -->|CI| J[GitHub ACtion] --> Vercel --> DPD[Complete the deployment]
-
-{{< /mermaid >}}
 
 {{< tip >}}
 
-我们要做的只是在 Notion 中编辑文章即可。
+我们要做的只是在 Notion 中编辑文章即可。 **只需要一次配置实现** ：
+
+- <span style="color: rgba(68, 131, 97, 1);">备份交给</span><span style="color: rgba(68, 131, 97, 1);"> **Notion 、 Github Repository** </span>
+
+- <span style="color: rgba(68, 131, 97, 1);">自动化交给 ：</span><span style="color: rgba(68, 131, 97, 1);"> **Github Action** </span>
+
+- <span style="color: rgba(68, 131, 97, 1);">自动部署交给：</span><span style="color: rgba(68, 131, 97, 1);"> **Vercel** </span>
 
 {{< /tip >}}
 
-只需要一次配置，可以实现：
 
-- **备份交给 Notion 、 Github Repository**
 
-- **自动化交给 ： Github Action**
 
-- **自动部署交给：Vercel**
+
+### Notion-Site 构建流程
+
+{{< mermaid >}}
+graph TD
+    A[Notion DataBase] -->|Notion-Site| B(Get Pages)
+    B --> C{Process Pages To Hugo}
+    C -->|setting| D[Hugo Setting Files]
+    C -->|Article| E[Hugo Content Files]
+    E -->|Folder| G[Folder]
+    E -->|Article| H[Markdown files]
+    E -->|Media| I[Downlaod Meida files]
+{{< /mermaid >}}
+
+
+
+
+
+{{< mermaid >}}
+graph TD
+   
+    Hugo -->|CI| J[GitHub ACtion] --> Vercel --> DPD[Complete the deployment]
+{{< /mermaid >}}
+
+
+
+
+
+
+
+

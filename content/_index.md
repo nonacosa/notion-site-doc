@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-28T14:16:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2022-12-30T14:29:00+07:00"
+lastmod: "2023-01-01T17:20:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -35,12 +35,13 @@ weight: null
 
 {{< button "docs" "Read the Docs" >}}
 
-{{< button "[https://github.com/onweru/compose](https://github.com/pkwenda/notion-site)" "Download Notion-Site" >}}
 {{< /column >}}
 
 {{< column >}}
 
 ![](media/s3.us-west-2.amazonaws.com_ec7ebeb5-f938-4ca7-b332-96b82a450bb7.png)
+
+{{< button "[https://github.com/onweru/compose](https://github.com/pkwenda/notion-site)" "Download Notion-Site" >}}
 
 {{< /column >}}
 
