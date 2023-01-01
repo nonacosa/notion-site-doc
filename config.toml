@@ -1,4 +1,4 @@
-baseURL = "https://ns-doc.evn.wtf/"
+baseURL = "https://ns-doc.env.wtf/"
 title = "Compose Docs"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
