@@ -5,7 +5,7 @@ const showId = 'show';
 const menu = 'menu';
 const active = 'active';
 // rootURL must end with '/' for relative URLs to work properly
-const rootURL = 'https://ns-doc.evn.fuck/';
+const rootURL = 'https://ns-doc.evn.wtf/';
 const searchFieldClass = '.search_field';
 const searchClass = '.search';
 const goBackClass = 'button_back';
@@ -730,7 +730,7 @@ function loadActions() {
   headingNodes.forEach(function(node){
     link = createEl('a');
     icon = createEl('img');
-    icon.src = 'https://ns-doc.evn.fuck/icons/link.svg';
+    icon.src = 'https://ns-doc.evn.wtf/icons/link.svg';
     link.className = 'link icon';
     link.appendChild(icon);
     id = node.getAttribute('id');
@@ -749,7 +749,7 @@ function loadActions() {
     if(!elem(`.${yanked}`, parent)) {
       const icon = parent.getElementsByTagName('img')[0];
       const originalSrc = icon.src;
-      icon.src = 'https://ns-doc.evn.fuck/icons/check.svg';
+      icon.src = 'https://ns-doc.evn.wtf/icons/check.svg';
       parent.appendChild(copyText);
       setTimeout(function() {
         parent.removeChild(copyText)
