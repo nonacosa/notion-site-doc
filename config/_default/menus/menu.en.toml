@@ -1,26 +1,17 @@
 # sync by notion-stite
 #  menu items
 [[main]]
-  name = "Blog"
+  name = "Blog Example"
   weight = 5
-  url = "blog/"
+  url = "https://blog.env.wtf/"
 
 [[main]]
   name = "Docs"
   weight = 2
   url = "docs/"
 
-[[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
 
 [[main]]
   name = "Example"
   weight = 3
-  url = "https://docs.neuralvibes.com"
-
-# [[main]]
-#   name = "Blog"
-#   weight = 4
-#   url = "blog/"
+  url = "https://www.notion.so/2bd00e5dfff3449ba81e0142f8af9bbb"

@@ -22,7 +22,7 @@ weight: 7
 ### 创建 Integration
 先为当前 Notion 账号设置 Secret
 
-{{< bookmark image="https://www.notion.so/images/meta/default.png" icon="https://www.notion.so/images/favicon.ico" url="https://www.notion.so/my-integrations"  des="A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team"  title="Notion – The all-in-one workspace for your notes, tasks, wikis, and databases."  >}}
+{{< bookmark image="https://www.notion.so/images/meta/default.png" icon="https://www.notion.so/%5C/images/favicon.ico" url="https://www.notion.so/my-integrations"  des="A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team"  title="Notion – The all-in-one workspace for your notes, tasks, wikis, and databases."  >}}
 
 <!--more-->![](media/s3.us-west-2.amazonaws.com_ec57dff2-9d52-4ac8-aaf0-45e6df24b5ba.png)
 

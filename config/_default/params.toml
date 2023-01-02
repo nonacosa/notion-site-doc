@@ -6,7 +6,7 @@ uniqueHomePage = true # change to false to add sidebar to homepage
 
 blogDir = "blog" # can be posts, blog e.t.c
 
-repo = "https://github.com/onweru/compose"
+repo = "https://github.com/pkwenda/notion-site"
 
 time_format_blog = "Monday, January 02, 2006"
 time_format_default = "January 2, 2006"
@@ -23,17 +23,17 @@ codeLineNumbers = false
 
 # Site logo
 [logo]
-  lightMode = "images/compose.svg"
-  darkMode = "images/compose-light.svg"
+  lightMode = "images/notion-site.png"
+  darkMode = "images/notion-site-dark.png"
 
 [source]
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/onweru/compose/"
+  url = "https://github.com/pkwenda/notion-site"
 
 # optional
 # attribution. Feel free to delete this
 [author]
-  name = "Weru"
-  url = "https://neuralvibes.com/author/"
+  name = "Pkwenda"
+  url = "https://github.com/pkwenda"

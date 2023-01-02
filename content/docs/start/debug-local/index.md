@@ -1,14 +1,14 @@
 ---
 title: How to debug local
 status: Published
-position: content/docs/introduce
+position: content/docs/start
 categories: []
 tags: []
 keywords: []
 createat: "2022-12-30T15:54:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T13:06:00+07:00"
+lastmod: "2023-01-02T13:15:00+07:00"
 description: ""
 draft: null
 expirydate: null
