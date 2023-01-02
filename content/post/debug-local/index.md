@@ -1,7 +1,7 @@
 ---
 title: Debug Local
 status: Published
-position: content/docs/start
+position: content/docs/introduce
 categories: []
 tags: []
 keywords: []
