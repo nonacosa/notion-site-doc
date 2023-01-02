@@ -1,12 +1,8 @@
 name: build
-on: 
-  # schedule:
-  #   - cron:  '*/10 * * * *' # 15min
-  # pull_request:
-  workflow_dispatch:
-  push:
-    branches:
-      - master
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch: ~
   pull_request:
   workflow_run:
     workflows: ["wakatime"]
@@ -32,6 +28,8 @@ jobs:
           NOTION_SECRET : ${{ secrets.NOTION_SECRET }}
       - name: Commit files
         run: |
+          git submodule update --init --recursive
+          git submodule update --remote --recursive
           git config user.email "action@github.com"
           git config user.name "GitHub Actions"
           git add --all
