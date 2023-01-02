@@ -1,3 +1,4 @@
+# sync by notion-stite
 baseURL = "https://ns-doc.env.wtf/"
 title = "Compose Docs"
 enableRobotsTXT = true
@@ -11,3 +12,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [outputs]
   home = ["HTML", "RSS","JSON"]
+
+RelativeURLs=true
+CanonifyURLs=true

@@ -1,3 +1,4 @@
+# sync by notion-stite
 [goldmark]
   [goldmark.renderer]
     unsafe = true

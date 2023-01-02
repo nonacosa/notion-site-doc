@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-28T14:16:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-01T17:20:00+07:00"
+lastmod: "2023-01-02T11:13:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -33,7 +33,7 @@ weight: null
 {{< /tip >}}
 
 
-{{< button "docs" "Read the Docs" >}}
+{{< button "docs/" "Read the Docs" >}}
 
 {{< /column >}}
 

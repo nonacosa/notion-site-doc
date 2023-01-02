@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-30T15:49:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-01T07:17:00+07:00"
+lastmod: "2023-01-02T12:11:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -23,6 +23,7 @@ weight: 7
 先为当前 Notion 账号设置 Secret
 
 {{< bookmark image="https://www.notion.so/images/meta/default.png" icon="https://www.notion.so/images/favicon.ico" url="https://www.notion.so/my-integrations"  des="A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team"  title="Notion – The all-in-one workspace for your notes, tasks, wikis, and databases."  >}}
+
 <!--more-->![](media/s3.us-west-2.amazonaws.com_ec57dff2-9d52-4ac8-aaf0-45e6df24b5ba.png)
 
 ![](media/s3.us-west-2.amazonaws.com_1d60a269-df97-4500-a589-d96a80c5b228.png)
@@ -35,18 +36,21 @@ weight: 7
 
 - insert （可选）
 
-<< tip >>
+{{< tip >}}
 
 read 权限是为了读取 Page 信息，update 权限是为了自动更新 Page 属性，insert 权限可以为了以后 Notion-Site 的新功能做准备。
 
-<< /tip >>
+{{< /tip >}}
 
 
+
+### 添加 Integration
+![](media/s3.us-west-2.amazonaws.com_49f20c24-125d-4bda-b1e7-6072c471a584.png)
 
 ### 保存 Token
 ![](media/s3.us-west-2.amazonaws.com_14eb72d0-043d-4ad6-acca-5b89bb4f7904.png)
 
-进入 Step-1 创建的 integration，拿到 token，该 token 的生效范围是该账号的 workspace，不同的 workspace 需要不同的  Integration
+进入刚刚创建的 Notion Integration，拿到 token，该 token 的生效范围是该账号的 workspace，不同的 workspace 需要不同的  Integration
 
 
 
