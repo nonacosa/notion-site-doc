@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-28T14:16:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T15:45:00+07:00"
+lastmod: "2023-01-02T16:41:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -36,7 +36,6 @@ weight: null
 
 {{< button "docs/" "Read the Docs" >}}
 
-{{< button "[https://github.com/pkwenda/notion-site/releases](https://github.com/pkwenda/notion-site/releases)" "Download Notion-Site" >}}
 {{< /column >}}
 
 {{< column >}}

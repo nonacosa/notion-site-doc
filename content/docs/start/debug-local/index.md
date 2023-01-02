@@ -8,14 +8,14 @@ keywords: []
 createat: "2022-12-30T15:54:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T13:15:00+07:00"
+lastmod: "2023-01-02T16:54:00+07:00"
 description: ""
 draft: null
 expirydate: null
 show_comments: false
 slug: ""
 image: null
-weight: 10
+weight: 11
 ---
 在实际生成网站之前，我们也可以在本地进行 debug 测试，测试生成的网站是否正确，缩短配置时间。
 
