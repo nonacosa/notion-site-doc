@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Example on Notion-Site Docs</title><link>https://ns-doc.env.wtf/docs/example/</link><description>Recent content in Example on Notion-Site Docs</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 02 Jan 2023 15:17:00 +0700</lastBuildDate><atom:link href="https://ns-doc.env.wtf/docs/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Site Example</title><link>https://ns-doc.env.wtf/docs/example/site-example/</link><pubDate>Mon, 02 Jan 2023 15:16:00 +0700</pubDate><guid>https://ns-doc.env.wtf/docs/example/site-example/</guid><description>&lt;p>这里维护已经使用 Notion-Site 上线的网站：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Example on Notion-Site Docs</title><link>https://ns-doc.env.wtf/docs/example/</link><description>Recent content in Example on Notion-Site Docs</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 02 Jan 2023 15:17:00 +0700</lastBuildDate><atom:link href="https://ns-doc.env.wtf/docs/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Site Example</title><link>https://ns-doc.env.wtf/docs/example/site-example/</link><pubDate>Mon, 02 Jan 2023 19:26:00 +0700</pubDate><guid>https://ns-doc.env.wtf/docs/example/site-example/</guid><description>&lt;p>这里维护已经使用 Notion-Site 上线的网站：&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -16,7 +16,7 @@
 &lt;tr>
 &lt;td>&lt;a href="https://blog.env.wtf/">nonacosa’s blog&lt;/a>&lt;/td>
 &lt;td>博客站&lt;/td>
-&lt;td>😀 &lt;strong>&lt;a href="https://github.com/pkwenda/notion-hugo-website-builder">仓库&lt;/a>&lt;/strong>&lt;/td>
+&lt;td>😀 &lt;strong>&lt;a href="https://github.com/pkwenda/notion-site-blog">仓库&lt;/a>&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Shortcodes Example</title><link>https://ns-doc.env.wtf/docs/example/shortcodes-example/</link><pubDate>Mon, 02 Jan 2023 15:41:00 +0700</pubDate><guid>https://ns-doc.env.wtf/docs/example/shortcodes-example/</guid><description>&lt;p>该页面 Notion 原文链接：&lt;a href="https://www.notion.so/f0fd1ed702d54115b851c7ebe572dc45">Shortcodes Example&lt;/a>&lt;/p></description></item></channel></rss>
