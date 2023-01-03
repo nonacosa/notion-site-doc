@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-30T15:49:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T15:48:00+07:00"
+lastmod: "2023-01-02T18:00:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -49,8 +49,6 @@ weight: 8
 然后我们可以手动点击 Build 部署，或者等待默认的的自动部署，具体看之前介绍的 cron 配置，当然，可以随意设置自己仓库的自动部署频率，<span style="background-color: rgba(251, 236, 221, 1);">私有库注意前文介绍的费用问题。</span>
 
 ![](media/s3.us-west-2.amazonaws.com_bbc10e5b-591b-48d3-8c8a-737f3f95e6c1.png)
-
-
 
 
 
