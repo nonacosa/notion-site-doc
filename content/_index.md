@@ -8,7 +8,7 @@ keywords: []
 createat: "2022-12-28T14:16:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T16:41:00+07:00"
+lastmod: "2023-01-04T05:21:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -32,7 +32,7 @@ weight: null
 
 {{< /tip >}}
 
- **本网站完全基于该 Notion 原数据构建,每日凌晨4点自动更新:** [Notiton Site Doc](https://www.notion.so/2bd00e5dfff3449ba81e0142f8af9bbb)
+ **本网站完全基于该 Notion 原数据构建,每 6 个小时自动更新:** [Notiton Site Doc](https://www.notion.so/2bd00e5dfff3449ba81e0142f8af9bbb)
 
 {{< button "docs/" "Read the Docs" >}}
 
@@ -47,4 +47,6 @@ weight: null
 {{< /column >}}
 
 {{< /block >}}
+
+
 
