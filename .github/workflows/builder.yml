@@ -1,7 +1,7 @@
 name: build
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */1 * * *"
   workflow_dispatch: ~
 jobs:
   sync:
@@ -29,11 +29,11 @@ jobs:
           git config pull.rebase false
           git pull
           git push 
-      - name: Format documents
-        uses: creyD/prettier_action@v3.1
-        with:
-          prettier_options: --write ./content/**/*.md
-          commit_message: 'notion-site: update articles (auto)'
+      # - name: Format documents
+        # uses: creyD/prettier_action@v3.1
+        # with:
+          # prettier_options: --write ./content/**/*.md
+          # commit_message: 'notion-site: update articles (auto)'
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
