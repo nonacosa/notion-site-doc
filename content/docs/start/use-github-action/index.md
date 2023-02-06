@@ -26,7 +26,7 @@ weight: 8
  ```
  <!--more-->为了节省时间，Notion-Site 已经创建好了一套默认流程，可以直接使用：
 
-{{< bookmark image="https://opengraph.githubassets.com/216437df411518adfe3c614cad47fb71188ec4ec830f5995f14e69a52a1e80aa/pkwenda/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/.github/workflows/builder.yml"  des="This is a document generated entirely based on notion-site - notion-site-doc/builder.yml at main · pkwenda/notion-site-doc"  title="notion-site-doc/builder.yml at main · pkwenda/notion-site-doc"  >}}
+{{< bookmark image="https://opengraph.githubassets.com/0fca962e291f8288a13468f4d71793a67ccbdc40937cbb607afdba9339e43dcc/pkwenda/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/.github/workflows/builder.yml"  des="This is a document generated entirely based on notion-site - notion-site-doc/builder.yml at main · pkwenda/notion-site-doc"  title="notion-site-doc/builder.yml at main · pkwenda/notion-site-doc"  >}}
 
 直接在该库中直接点击： **use the template** 创建自己的仓库即可：
 
