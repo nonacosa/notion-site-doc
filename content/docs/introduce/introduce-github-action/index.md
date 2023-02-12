@@ -71,7 +71,7 @@ Github Action 是否收费的规则比较透明，下面是计费规则：
 
 
 
-{{< bookmark image="https://mcusercontent.com/ea228d7061e8bbfa8639666ad/images/2a002353-3bec-fbab-b0e3-e8eef1ac0e52.png" icon="https://crontab.guru/favicon.ico" url="https://crontab.guru/"  des="An easy to use editor for crontab schedules."  title="Crontab.guru - The cron schedule expression editor"  >}}
+{{< bookmark image="https://res.cloudinary.com/practicaldev/image/fetch/s--9mAvnDqk--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pnivzp4qvskmpr5ppk4f.png" icon="https://crontab.guru/favicon.ico" url="https://crontab.guru/"  des="An easy to use editor for crontab schedules."  title="Crontab.guru - The cron schedule expression editor"  >}}
 
 {{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://docs.github.com/assets/cb-803/images/site/favicon.svg" url="https://docs.github.com/en/actions/quickstart"  des="Try out the features of GitHub Actions in 5 minutes or less."  title="Quickstart for GitHub Actions - GitHub Docs"  >}}
 
