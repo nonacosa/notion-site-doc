@@ -64,7 +64,7 @@ gantt
 
 ### Audio
 
-{{< audio src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/086b7818-5b65-445e-8bbc-9821fe478125/Curious.George.S01E01.Curious.George.Flies.a.Kite.-.From.Scratchwww.oiabc.com.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230311%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230311T000930Z&X-Amz-Expires=3600&X-Amz-Signature=527080469046da8c2abfa8a9bcb113a5f10ba6ef34e375a922e510345acb94c9&X-Amz-SignedHeaders=host&x-id=GetObject" >}}
+{{< audio src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/086b7818-5b65-445e-8bbc-9821fe478125/Curious.George.S01E01.Curious.George.Flies.a.Kite.-.From.Scratchwww.oiabc.com.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230311%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230311T120335Z&X-Amz-Expires=3600&X-Amz-Signature=5dc0985491e676f48009d6732559c713184c56e90a8b8cdd8e15287456d7bf23&X-Amz-SignedHeaders=host&x-id=GetObject" >}}
 
 ### PDF
 
