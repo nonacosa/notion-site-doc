@@ -8,7 +8,7 @@ keywords: []
 createat: "2023-01-02T13:47:00+07:00"
 author: nonacosa
 istranslated: true
-lastmod: "2023-01-02T15:41:00+07:00"
+lastmod: "2023-04-17T13:41:00+07:00"
 description: ""
 draft: null
 expirydate: null
@@ -64,9 +64,7 @@ gantt
 
 ### Audio
 
-{{< audio src="media/s3.us-west-2.amazonaws.com_Curious.George.S01E01.Curious.George.Flies.a.Kite.-.From.Scratchwww.oiabc.com.mp3" >}}
-
-### PDF
+{{< audio src="media/s3.us-west-2.amazonaws.com_english.mp3" >}}### PDF
 
 {{< pdf url="media/s3.us-west-2.amazonaws.com_Dingoes_at_Dinnertime.pdf" >}}
 
