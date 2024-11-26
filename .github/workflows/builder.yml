@@ -42,13 +42,7 @@ jobs:
         run: |
           git config user.email "action@github.com"
           git config user.name "GitHub Actions"
-      
-      - name: Force sync with origin/main
-        run: |
-          git fetch origin
-          git reset --hard origin/main
-          git clean -fd
-      
+ 
       - name: Commit new results
         run: |
           git add --all
