@@ -35,10 +35,10 @@ jobs:
           git clean -fd
           git config user.email "action@github.com"
           git config user.name "GitHub Actions"
-          git fetch origin
-          git reset --hard origin/main
           git add --all
           git commit --amend -m "New results"
+          git fetch origin
+          git reset --hard origin/main
           git push origin main --force
           git clean -fd
       - name: Setup Hugo
