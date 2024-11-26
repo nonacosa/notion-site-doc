@@ -1,5 +1,5 @@
 # sync by notion-stite
-baseURL = "https://notion-site-doc.vercel.app/"
+baseURL = "https://notion.zhuang.me/"
 title = "Notion-Site Documents"
 enableRobotsTXT = true
 # this example loads the theme as hugo module
