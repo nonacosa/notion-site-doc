@@ -15,7 +15,11 @@ jobs:
           fetch-depth: 0
       - name: Ensure write permissions
         run: |
-          chmod -R u+w ./content
+          if [ -d "./content" ]; then
+            chmod -R u+w ./content
+          else
+            echo "Directory ./content does not exist. Skipping chmod."
+          fi
       - name: Force sync with origin/main
         run: |
           git fetch origin
