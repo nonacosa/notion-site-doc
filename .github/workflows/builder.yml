@@ -16,6 +16,11 @@ jobs:
       - name: Ensure write permissions
         run: |
           chmod -R u+w ./content
+      - name: Force sync with origin/main
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+          git clean -fd          
       - name: Clean the old post
         run: |
           rm -rf ./content/*
