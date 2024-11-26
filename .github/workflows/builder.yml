@@ -49,27 +49,32 @@ jobs:
           git commit -m "New results" || echo "No changes to commit"
       
       - name: Push changes
+        id: push_changes
         run: |
-          git push origin main
-          
+          git push origin main || echo "Push failed or no changes to push"
+          echo "push_success=true" >> $GITHUB_OUTPUT
+
       - name: Setup Hugo
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.push_changes.outputs.push_success == 'true'
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
+
       - uses: actions/cache@v2
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.push_changes.outputs.push_success == 'true'
         with:
           path: /tmp/hugo_cache
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+
       - name: Build
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.push_changes.outputs.push_success == 'true'
         run: hugo --minify
+
       - name: Deploy
-        if: steps.verify_diff.outputs.changed == 'true'
+        if: steps.push_changes.outputs.push_success == 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
