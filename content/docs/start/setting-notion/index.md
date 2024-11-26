@@ -1,21 +1,25 @@
 ---
 title: Setting Notion
 status: Published
-position: content/docs/start
-categories: []
+author: nonacosa
+weight: 7
+lastMod: "2023-01-02T12:11:00Z"
+createAt: "2022-12-30T15:49:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-30T15:49:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-02T12:11:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 7
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/start
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 
 
@@ -24,9 +28,9 @@ weight: 7
 
 {{< bookmark image="https://www.notion.so/images/meta/default.png" icon="https://www.notion.so/images/favicon.ico" url="https://www.notion.so/my-integrations"  des="A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team"  title="Notion – The all-in-one workspace for your notes, tasks, wikis, and databases."  >}}
 
-<!--more-->![](media/s3.us-west-2.amazonaws.com_ec57dff2-9d52-4ac8-aaf0-45e6df24b5ba.png)
+<!--more-->![](media/prod-files-secure.s3.us-west-2.amazonaws.com_ec57dff2-9d52-4ac8-aaf0-45e6df24b5ba.png)
 
-![](media/s3.us-west-2.amazonaws.com_1d60a269-df97-4500-a589-d96a80c5b228.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_1d60a269-df97-4500-a589-d96a80c5b228.png)
 
 然后勾选 Internal integration, 并勾选三个权限：
 
@@ -45,10 +49,10 @@ read 权限是为了读取 Page 信息，update 权限是为了自动更新 Page
 
 
 ### 添加 Integration
-![](media/s3.us-west-2.amazonaws.com_49f20c24-125d-4bda-b1e7-6072c471a584.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_49f20c24-125d-4bda-b1e7-6072c471a584.png)
 
 ### 保存 Token
-![](media/s3.us-west-2.amazonaws.com_14eb72d0-043d-4ad6-acca-5b89bb4f7904.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_14eb72d0-043d-4ad6-acca-5b89bb4f7904.png)
 
 进入刚刚创建的 Notion Integration，拿到 token，该 token 的生效范围是该账号的 workspace，不同的 workspace 需要不同的  Integration
 
@@ -65,7 +69,7 @@ read 权限是为了读取 Page 信息，update 权限是为了自动更新 Page
 
 选择类型后，点击复制，选择复制到自己的 workspace 即可。
 
-![](media/s3.us-west-2.amazonaws.com_c19ce73e-f88c-4f0a-a64f-a958eaaa336a.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_c19ce73e-f88c-4f0a-a64f-a958eaaa336a.png)
 
 
 

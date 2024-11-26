@@ -1,21 +1,25 @@
 ---
 title: Github Action
 status: Published
-position: content/docs/introduce
-categories: []
+author: nonacosa
+weight: 5
+lastMod: "2023-01-02T15:50:00Z"
+createAt: "2022-12-29T09:41:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-29T09:41:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-02T15:50:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 5
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/introduce
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 Notion-Site 的架构涉及中的自动化部署环境是依赖 Github Action 的能力展开的，我们可以直接在应用市场中找到 Notion-Site 程序免费使用服务，使用 Github Action 容器还可以规避中国大陆访问 Notion 接口不稳定的问题。
 
@@ -71,7 +75,7 @@ Github Action 是否收费的规则比较透明，下面是计费规则：
 
 
 
-{{< bookmark image="https://mcusercontent.com/ea228d7061e8bbfa8639666ad/images/2a002353-3bec-fbab-b0e3-e8eef1ac0e52.png" icon="https://crontab.guru/favicon.ico" url="https://crontab.guru/"  des="An easy to use editor for crontab schedules."  title="Crontab.guru - The cron schedule expression editor"  >}}
+{{< bookmark image="https://og.cronitor.io/api/blog?title=*%20*%20*%20*%20*%20%0ACrontab%20Guru" icon="https://crontab.guru/favicon.ico" url="https://crontab.guru/"  des="An easy to use editor for crontab schedules."  title="Crontab.guru - The cron schedule expression generator"  >}}
 
-{{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://docs.github.com/assets/cb-803/images/site/favicon.svg" url="https://docs.github.com/en/actions/quickstart"  des="Try out the features of GitHub Actions in 5 minutes or less."  title="Quickstart for GitHub Actions - GitHub Docs"  >}}
+{{< bookmark image="https://github.githubassets.com/images/modules/open_graph/github-logo.png" icon="https://docs.github.com/assets/cb-345/images/site/favicon.png" url="https://docs.github.com/en/actions/quickstart"  des="Try out the features of GitHub Actions in 5 minutes or less."  title="Quickstart for GitHub Actions - GitHub Docs"  >}}
 

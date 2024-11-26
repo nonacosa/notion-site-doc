@@ -1,21 +1,25 @@
 ---
 title: Shortcodes Example
 status: Published
-position: content/docs/example
-categories: []
+author: nonacosa
+weight: 2
+lastMod: "2023-04-17T13:43:00Z"
+createAt: "2023-01-02T13:47:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2023-01-02T13:47:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-04-17T13:43:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 2
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/example
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 
 
@@ -64,11 +68,11 @@ gantt
 
 ### Audio
 
-{{< audio src="media/s3.us-west-2.amazonaws.com_english.mp3" >}}
+{{< audio src="media/prod-files-secure.s3.us-west-2.amazonaws.com_english.mp3" >}}
 
 ### PDF
 
-{{< pdf url="media/s3.us-west-2.amazonaws.com_Dingoes_at_Dinnertime.pdf" >}}
+{{< pdf url="media/prod-files-secure.s3.us-west-2.amazonaws.com_Dingoes_at_Dinnertime.pdf" >}}
 
 
 ### BookMark

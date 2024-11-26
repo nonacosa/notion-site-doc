@@ -1,21 +1,25 @@
 ---
 title: Notion
 status: Published
-position: content/docs/introduce
-categories: []
+author: nonacosa
+weight: 1
+lastMod: "2023-01-01T08:47:00Z"
+createAt: "2022-12-29T02:19:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-29T02:19:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-01T08:47:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 1
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/introduce
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 
 
@@ -50,11 +54,11 @@ Notion 的 Database 不是我们认知的传统意义上的 Table（表格），
 
 {{< /tip >}}
 
-![](media/s3.us-west-2.amazonaws.com_1850f30a-9387-4e7c-b3ab-8677329011e3.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_1850f30a-9387-4e7c-b3ab-8677329011e3.png)
 
-![](media/s3.us-west-2.amazonaws.com_dd6373d8-bb30-4109-9dae-8cb6ca36c9fb.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_dd6373d8-bb30-4109-9dae-8cb6ca36c9fb.png)
 
-![](media/s3.us-west-2.amazonaws.com_2abe5972-626e-473e-9c83-0fef86bf2c29.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_2abe5972-626e-473e-9c83-0fef86bf2c29.png)
 
 {{< tip >}}
 
@@ -62,9 +66,9 @@ Notion 的 Database 不是我们认知的传统意义上的 Table（表格），
 
 {{< /tip >}}
 
-![](media/s3.us-west-2.amazonaws.com_1006bca7-cf05-412d-8b4e-836a8ee2ee3c.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_1006bca7-cf05-412d-8b4e-836a8ee2ee3c.png)
 
-![](media/s3.us-west-2.amazonaws.com_3425c639-7c03-4b76-bad3-d1163ebf8cf6.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_3425c639-7c03-4b76-bad3-d1163ebf8cf6.png)
 
 
 

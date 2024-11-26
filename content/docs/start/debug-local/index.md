@@ -1,21 +1,25 @@
 ---
 title: How to debug local
 status: Published
-position: content/docs/start
-categories: []
+author: nonacosa
+weight: 11
+lastMod: "2023-01-02T16:54:00Z"
+createAt: "2022-12-30T15:54:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-30T15:54:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-02T16:54:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 11
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/start
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 在实际生成网站之前，我们也可以在本地进行 debug 测试，测试生成的网站是否正确，缩短配置时间。
 
@@ -37,9 +41,9 @@ weight: 11
  ```powershell
  notion-site.exe init
  ```
- ![](media/s3.us-west-2.amazonaws.com_1c0c5ac5-cec7-406b-a0c1-a096aa230c24.png)
+ ![](media/prod-files-secure.s3.us-west-2.amazonaws.com_1c0c5ac5-cec7-406b-a0c1-a096aa230c24.png)
 
-![](media/s3.us-west-2.amazonaws.com_c0577af5-0e60-4baa-8cb0-d959f824e204.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_c0577af5-0e60-4baa-8cb0-d959f824e204.png)
 
 在 Unix 系统中：
 
@@ -64,7 +68,7 @@ markdown:
 
 - databaseId 换为 复制模板后自己 workspace 页面的 page id：
 
-![](media/s3.us-west-2.amazonaws.com_79543d1b-5cb4-4329-89ef-3289191e7231.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_79543d1b-5cb4-4329-89ef-3289191e7231.png)
 
 .env
 
@@ -83,7 +87,7 @@ markdown:
 
 - 2：注意配置文件的主题配置👇
 
-{{< bookmark image="https://opengraph.githubassets.com/0fca962e291f8288a13468f4d71793a67ccbdc40937cbb607afdba9339e43dcc/pkwenda/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/config.toml#L7"  des="This is a document generated entirely based on notion-site - notion-site-doc/config.toml at main · pkwenda/notion-site-doc"  title="notion-site-doc/config.toml at main · pkwenda/notion-site-doc"  >}}
+{{< bookmark image="https://opengraph.githubassets.com/562980d29b2a3edfa3ff221f8f8713eb139bcea21092328646b7b0702b0bc598/nonacosa/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/config.toml#L7"  des="This is a document generated entirely based on notion-site - nonacosa/notion-site-doc"  title="notion-site-doc/config.toml at main · nonacosa/notion-site-doc"  >}}
 
 不管使用那种主题，都需要添加并使用 ***[notion-site-shortcodes](https://github.com/pkwenda/notion-site-shortcodes)*** 模板作为基础模板，该模板提供了 notion 中的非 markdown 类型的 shortcodes 转换。如不添加此模板，notion 中很多类型无法同步：
 
@@ -133,5 +137,5 @@ Processing the 23 th *notion.ParagraphBlock tpye block  -> 44780147-3a79-411f-8f
  ```powershell
  hugo server -D
  ```
- 打开[http://localhost:1313](http://localhost:1313)查看效果
+ 打开[http://localhost:1313](http://localhost:1313/)查看效果
 

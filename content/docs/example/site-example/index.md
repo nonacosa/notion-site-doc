@@ -1,21 +1,25 @@
 ---
 title: Site Example
 status: Published
-position: content/docs/example
-categories: []
+author: nonacosa
+weight: 1
+lastMod: "2023-01-04T12:44:00Z"
+createAt: "2023-01-02T13:47:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2023-01-02T13:47:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-04T12:44:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 1
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/example
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 这里维护已经使用 Notion-Site 上线的网站：
 

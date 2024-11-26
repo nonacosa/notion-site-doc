@@ -1,21 +1,25 @@
 ---
 title: Notion-Site
 status: Published
-position: content
-categories: []
+author: nonacosa
+weight: 0
+lastMod: "2023-01-04T08:12:00Z"
+createAt: "2022-12-28T14:16:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-28T14:16:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-04T08:12:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: null
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 {{< block "grid-2" >}}
 {{< column >}}
@@ -40,7 +44,7 @@ weight: null
 
 {{< column >}}
 
-![](media/s3.us-west-2.amazonaws.com_ec7ebeb5-f938-4ca7-b332-96b82a450bb7.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_ec7ebeb5-f938-4ca7-b332-96b82a450bb7.png)
 
 
 

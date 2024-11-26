@@ -1,21 +1,25 @@
 ---
 title: Notion Site Doc
 status: Published
-position: content/docs
-categories: []
+author: nonacosa
+weight: 0
+lastMod: "2023-01-04T05:21:00Z"
+createAt: "2022-12-29T08:17:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-29T08:17:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-04T05:21:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: null
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
  ***[Notion-Site](https://github.com/pkwenda/notion-site)*** 是一个打通 ***[Notion](https://www.notion.so/)*** 与 ***[Hugo ](https://gohugo.io/)*** 的自动建站工具，它比 Notion 默认提供的 Share 功能更适用于构建网站，我们可以使用 Hugo 提供的 200 多种类型的主题创建我们的网站。
 
@@ -25,15 +29,15 @@ weight: null
 
  **Notion 清晰的目录结构** 
 
-![](media/s3.us-west-2.amazonaws.com_1dbf46ad-691b-4b0e-9cf7-fb3140b37958.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_1dbf46ad-691b-4b0e-9cf7-fb3140b37958.png)
 
  **Notion 对网页的转义** 
 
-![](media/s3.us-west-2.amazonaws.com_a8bac8cf-c661-48ef-adb2-46e441bee15a.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_a8bac8cf-c661-48ef-adb2-46e441bee15a.png)
 
  **Notion 对网站配置文件的云储存** 
 
-![](media/s3.us-west-2.amazonaws.com_098187b4-3e9e-46d5-8dc7-51e5d4aeb278.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_098187b4-3e9e-46d5-8dc7-51e5d4aeb278.png)
 
 ### Notion 本身做为博客的不足：
 Notion 因为自带分享链接，所以近几年我们通常直接分享 Notion 的地址作为我们的博客、文档站，或者使用类似 ***[Notion-Blog](/3dab2163acdb415aaf6514b3c00368c5)*** 等开源方案做 1:1 的转换。
@@ -42,7 +46,7 @@ Notion 因为自带分享链接，所以近几年我们通常直接分享 Notion
 
 
 
-{{< bookmark image="https://res.cloudinary.com/practicaldev/image/fetch/s--9mAvnDqk--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pnivzp4qvskmpr5ppk4f.png" icon="https://res.cloudinary.com/practicaldev/image/fetch/s--lrmEcD2H--/c_limit,f_png,fl_progressive,q_80,w_128/https://practicaldev-herokuapp-com.freetls.fastly.net/assets/devlogo-pwa-512.png" url="https://dev.to/koddr/using-the-notion-page-as-a-personal-website-with-your-domain-on-cloudflare-1pi7"  des="Introduction   Hi, DEV people! 🙂 Today, I give you a handy step-by-step guide to help you..."  title="🌐 Using the Notion page as a personal website with your domain on Cloudflare"  >}}
+{{< bookmark image="https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpnivzp4qvskmpr5ppk4f.png" icon="https://media2.dev.to/dynamic/image/width=128,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8j7kvp660rqzt99zui8e.png" url="https://dev.to/koddr/using-the-notion-page-as-a-personal-website-with-your-domain-on-cloudflare-1pi7"  des="Introduction   Hi, DEV people! 🙂 Today, I give you a handy step-by-step guide to help you..."  title="🌐 Using the Notion page as a personal website with your domain on Cloudflare"  >}}
 
 
 

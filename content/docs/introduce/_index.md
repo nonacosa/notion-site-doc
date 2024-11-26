@@ -1,21 +1,25 @@
 ---
 title: Introduce
 status: Published
-position: content/docs/introduce
-categories: []
+author: nonacosa
+weight: 1
+lastMod: "2023-01-02T10:16:00Z"
+createAt: "2022-12-29T02:19:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-29T02:19:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-02T10:16:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 1
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/introduce
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 在这里将在使用 Notion-Site 前介绍 Notion、Hugo、Vercel 的基本使用方法用法，如果用户对这三个工具很熟悉可以跳过本文档，直接进入：
 

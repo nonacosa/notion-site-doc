@@ -1,21 +1,25 @@
 ---
 title: Properties
 status: Published
-position: content/docs/introduce
-categories: []
+author: nonacosa
+weight: 2
+lastMod: "2022-12-30T14:58:00Z"
+createAt: "2022-12-29T09:33:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-29T09:33:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2022-12-30T14:58:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 2
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/introduce
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 Notion 的属性是可以完全自己定制的，但是在 Notion-Site 中，我们绑定了一些生成网站所必要的属性，这些属性是 Notion-Site 的核心功能，每个属性都用于管理生成的网站，所以，为了以后随时随地管理网站，需要先理解这些属性的意义和规则。
 
@@ -64,9 +68,9 @@ Database 中的隐藏字段，用作维护网站文章的封面，缩略图
 
 {{</ tip >}}
 
-![](media/s3.us-west-2.amazonaws.com_b8bd389a-2c96-4217-adbe-b59926928086.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_b8bd389a-2c96-4217-adbe-b59926928086.png)
 
-![](media/s3.us-west-2.amazonaws.com_e8b53394-b2c1-431e-8f0d-fe962265cc52.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_e8b53394-b2c1-431e-8f0d-fe962265cc52.png)
 
 ### Tags
 {{< tip >}}
@@ -75,7 +79,7 @@ Database 中的隐藏字段，用作维护网站文章的封面，缩略图
 
 {{< /tip >}}
 
-![](media/s3.us-west-2.amazonaws.com_cf1778bd-2c50-4235-9d70-7594f28f95d1.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_cf1778bd-2c50-4235-9d70-7594f28f95d1.png)
 
 ### Position
 {{< tip "warning" >}}
@@ -91,9 +95,9 @@ Database 中的隐藏字段，用作维护网站文章的封面，缩略图
 
 
 
-![](media/s3.us-west-2.amazonaws.com_0e6b1342-ef2d-4f16-8273-16ab94825e64.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_0e6b1342-ef2d-4f16-8273-16ab94825e64.png)
 
-![](media/s3.us-west-2.amazonaws.com_c516369d-ea9f-4bc5-a48c-6b73b4be4576.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_c516369d-ea9f-4bc5-a48c-6b73b4be4576.png)
 
 
 
@@ -115,7 +119,7 @@ Database 中的隐藏字段，用作维护网站文章的封面，缩略图
 ### CreateAt
 创建时间属性，大多数博客类主题都默认支持该属性，方便按照年度查看归档的文章，文章的发布时间，以及排序。
 
-![](media/s3.us-west-2.amazonaws.com_e535b945-d4dd-492e-8ee9-4f8206cf2694.png)
+![](media/prod-files-secure.s3.us-west-2.amazonaws.com_e535b945-d4dd-492e-8ee9-4f8206cf2694.png)
 
 {{< tip "warning" >}}
 

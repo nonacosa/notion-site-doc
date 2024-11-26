@@ -1,21 +1,25 @@
 ---
 title: Start
 status: Published
-position: content/docs/start
-categories: []
+author: nonacosa
+weight: 2
+lastMod: "2023-01-02T15:47:00Z"
+createAt: "2022-12-30T15:49:00Z"
+expiryDate: ""
+draft: false
+isTranslated: true
+showComments: false
 tags: []
 keywords: []
-createat: "2022-12-30T15:49:00+07:00"
-author: nonacosa
-istranslated: true
-lastmod: "2023-01-02T15:47:00+07:00"
-description: ""
-draft: null
-expirydate: null
-show_comments: false
+categories: []
 slug: ""
-image: null
-weight: 2
+image: ""
+avatar: media/lh6.googleusercontent.com_photo.jpg
+position: content/docs/start
+accessPath: ""
+description: ""
+metaTitle: ""
+metaDescription: ""
 ---
 在这里将会为一步一步讲述如何配置、构建网站。
 
