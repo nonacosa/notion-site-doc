@@ -29,18 +29,26 @@ jobs:
         run: |
           git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
           
-      - name: Commit files
-        if: steps.verify_diff.outputs.changed == 'true'
+      - name: Set up Git
         run: |
-          git clean -fd
           git config user.email "action@github.com"
           git config user.name "GitHub Actions"
-          git add --all
-          git commit --amend -m "New results"
+      
+      - name: Force sync with origin/main
+        run: |
           git fetch origin
           git reset --hard origin/main
-          git push origin main --force
           git clean -fd
+      
+      - name: Commit new results
+        run: |
+          git add --all
+          git commit -m "New results" || echo "No changes to commit"
+      
+      - name: Push changes
+        run: |
+          git push origin main
+          
       - name: Setup Hugo
         if: steps.verify_diff.outputs.changed == 'true'
         uses: peaceiris/actions-hugo@v2
