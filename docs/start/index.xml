@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Start on Notion-Site Documents</title><link>https://notion-site-doc.vercel.app/docs/start/</link><description>Recent content in Start on Notion-Site Documents</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 26 Nov 2024 04:46:21 +0000</lastBuildDate><atom:link href="https://notion-site-doc.vercel.app/docs/start/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting Notion</title><link>https://notion-site-doc.vercel.app/docs/start/setting-notion/</link><pubDate>Mon, 02 Jan 2023 12:11:00 +0000</pubDate><guid>https://notion-site-doc.vercel.app/docs/start/setting-notion/</guid><description>&lt;h3 id="创建-integration" class=link_owner>
+ 创建 Integration
+ &lt;a href="#%e5%88%9b%e5%bb%ba-integration" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+&lt;p>先为当前 Notion 账号设置 Secret&lt;/p>
+
+&lt;link rel="preload" href="https://notion-site-doc.vercel.app/notion-site/bookmark/bookmark.css" as="style">
+&lt;link rel="stylesheet" href="https://notion-site-doc.vercel.app/notion-site/bookmark/bookmark.css" data-n-g="">
+&lt;a class="notion-site-bookmark" href="https://www.notion.so/my-integrations" target="_blank" rel="noreferrer" class="">
+ &lt;article class="flex justify-between h-40 rounded border border-gray-400 border-solid">
+ &lt;div class="flex flex-col justify-between p-5 hover:bg-gray-100 w-3/5">
+ &lt;h3 class="text-2xl truncate">Notion – The all-in-one workspace for your notes, tasks, wikis, and databases. &lt;/h3>
+ &lt;p class="overflow-hidden h-12 text-base text-gray-500 notion-site-bookmark-p">
+ A new tool that blends your everyday work apps into one. It&amp;#39;s the all-in-one workspace for you and your team
+ &lt;/p>
+ &lt;div class="flex items-center">
+ 
+ &lt;p class="text-base truncate ml-2 notion-site-bookmark-p">
+ https://www.notion.so/my-integrations
+ &lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="w-2/5 h-full rounded">
+ &lt;img src="https://www.notion.so/images/meta/default.png" class="object-cover w-full h-full" alt="">
+ &lt;/div>
+ &lt;/article>
+&lt;/a></description></item><item><title>How to use Github Action</title><link>https://notion-site-doc.vercel.app/docs/start/use-github-action/</link><pubDate>Mon, 02 Jan 2023 18:00:00 +0000</pubDate><guid>https://notion-site-doc.vercel.app/docs/start/use-github-action/</guid><description>&lt;p>我们可以在 &lt;strong>&lt;a href="https://github.com/marketplace">Github 商店&lt;/a>&lt;/strong> 中找到 &lt;strong>&lt;a href="https://github.com/marketplace/actions/notion-site">Notion-Site&lt;/a>&lt;/strong> &lt;strong>，&lt;/strong> 就可以在 &lt;strong>Github&lt;/strong> 中随意使用了，代码如下：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">notion-site&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">pkwenda/notion-site@v1.0.3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Setting Properties</title><link>https://notion-site-doc.vercel.app/docs/start/setting-properties/</link><pubDate>Mon, 02 Jan 2023 13:46:00 +0000</pubDate><guid>https://notion-site-doc.vercel.app/docs/start/setting-properties/</guid><description>&lt;p>&lt;strong>Notion&lt;/strong> 的属性是可以完全自己定制的，但是在 &lt;strong>Notion-Site&lt;/strong> 中，我们绑定了一些生成网站所必要的属性，这些属性是 Notion-Site 的核心功能，每个属性都用于管理生成的网站，所以，为了以后随时随地管理网站，需要先理解这些属性的意义和规则。&lt;/p>
+
+&lt;div class="tip tip_warning">
+ Notion-Site 的属性非常重要，本页内容请一定仔细阅读。当然如果你非常了解 Hugo，浅浅的浏览一遍就好。
+&lt;/div>
+
+&lt;h3 id="name" class=link_owner>
+ Name
+ &lt;a href="#name" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+&lt;p>Database 中的默认字段，用作维护网站的子页面，名称作为描述字段，让网站管理人员理解这个页面的作用，通常 Title 属性作为文章实际的标题，但是如果未填写 Title 属性，则使用 Name 属性作为文章的标题。&lt;/p>
+&lt;h3 id="cover" class=link_owner>
+ Cover
+ &lt;a href="#cover" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+&lt;p>Database 中的隐藏字段，用作维护网站文章的封面，表示首页的缩略图：&lt;/p>
+&lt;p>&lt;img src="https://notion-site-doc.vercel.app/docs/start/setting-properties/media/prod-files-secure.s3.us-west-2.amazonaws.com_aee6afc1-80b9-483b-95a1-22b5b0232b48.png">&lt;/p>
+&lt;h3 id="title" class=link_owner>
+ Title
+ &lt;a href="#title" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+
+&lt;div class="tip">
+ 标题属性，大多数所有主题都默认支持该属性，用来维护文章或文档的标题
+&lt;/div>
+
+&lt;h3 id="status" class=link_owner>
+ Status
+ &lt;a href="#status" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+&lt;p>用于管理博客的发布状态，目前有以下几种状态：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;span style="color: rgba(203, 145, 47, 1);"> &lt;strong>finished&lt;/strong> &lt;/span>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;span style="color: rgba(68, 131, 97, 1);"> &lt;strong>published&lt;/strong> &lt;/span>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;span style="color: rgba(212, 76, 71, 1);"> &lt;strong>draft&lt;/strong> &lt;/span>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>如果设置该状态是 draft，表示该文章还处于“草稿” 阶段，那么 Notion-Site 不会拉取该页面，也不会参与生成网站。&lt;/p></description></item><item><title>Publish by Vercel</title><link>https://notion-site-doc.vercel.app/docs/start/publish-vercel/</link><pubDate>Mon, 02 Jan 2023 17:06:00 +0000</pubDate><guid>https://notion-site-doc.vercel.app/docs/start/publish-vercel/</guid><description>&lt;p>&lt;strong>首先，需要创建一个 Vercel 账号，然后添加新项目&lt;/strong>&lt;/p></description></item><item><title>How to debug local</title><link>https://notion-site-doc.vercel.app/docs/start/debug-local/</link><pubDate>Mon, 02 Jan 2023 16:54:00 +0000</pubDate><guid>https://notion-site-doc.vercel.app/docs/start/debug-local/</guid><description>&lt;p>在实际生成网站之前，我们也可以在本地进行 debug 测试，测试生成的网站是否正确，缩短配置时间。&lt;/p>
+&lt;h3 id="下载或安装-notion-site-离线程序" class=link_owner>
+ 下载或安装 Notion-Site 离线程序
+ &lt;a href="#%e4%b8%8b%e8%bd%bd%e6%88%96%e5%ae%89%e8%a3%85-notion-site-%e7%a6%bb%e7%ba%bf%e7%a8%8b%e5%ba%8f" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3></description></item></channel></rss>
