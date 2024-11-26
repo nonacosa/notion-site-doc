@@ -11,11 +11,15 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true
+          fetch-depth: 0
+      - name: Ensure write permissions
+        run: |
+          chmod -R u+w ./content
       - name: Clean the old post
         run: |
           rm -rf ./content/*
+          ls ./content || echo "Content directory is clean"
       - name: notion-site
         uses: nonacosa/notion-site@master
         env:
@@ -33,7 +37,7 @@ jobs:
           git add --all
           git commit -m "New results"
           git fetch origin
-          git reset --soft origin/main
+          git reset --hard origin/main
           git add --all
           git commit --amend -m "New results"
           git push origin main --force
