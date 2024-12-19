@@ -30,7 +30,7 @@ metaDescription: ""
  ```
  <!--more-->为了节省时间，Notion-Site 已经创建好了一套默认流程，可以直接使用：
 
-{{< bookmark image="https://opengraph.githubassets.com/cf373ea8f5b8c839125c6c7c9cff8f3b18b9f4f629789c5f8717d3d8abf5da15/nonacosa/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/.github/workflows/builder.yml"  des="This is a document generated entirely based on notion-site - nonacosa/notion-site-doc"  title="notion-site-doc/.github/workflows/builder.yml at main · nonacosa/notion-site-doc"  >}}
+{{< bookmark image="https://opengraph.githubassets.com/f2c41d7e7bee4d2e73c7eae2d24816788cc23bdc56d3e11f8ecf8218333a06cf/nonacosa/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/.github/workflows/builder.yml"  des="This is a document generated entirely based on notion-site - nonacosa/notion-site-doc"  title="notion-site-doc/.github/workflows/builder.yml at main · nonacosa/notion-site-doc"  >}}
 
 直接在该库中直接点击： **use the template** 创建自己的仓库即可：
 
