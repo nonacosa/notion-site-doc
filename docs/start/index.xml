@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Start on Notion-Site Documents</title><link>https://notion.zhuang.me/docs/start/</link><description>Recent content in Start on Notion-Site Documents</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 14 Feb 2025 12:03:14 +0000</lastBuildDate><atom:link href="https://notion.zhuang.me/docs/start/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting Notion</title><link>https://notion.zhuang.me/docs/start/setting-notion/</link><pubDate>Mon, 02 Jan 2023 12:11:00 +0000</pubDate><guid>https://notion.zhuang.me/docs/start/setting-notion/</guid><description/></item><item><title>How to use Github Action</title><link>https://notion.zhuang.me/docs/start/use-github-action/</link><pubDate>Mon, 02 Jan 2023 18:00:00 +0000</pubDate><guid>https://notion.zhuang.me/docs/start/use-github-action/</guid><description>&lt;p>我们可以在 &lt;strong>&lt;a href="https://github.com/marketplace">Github 商店&lt;/a>&lt;/strong> 中找到 &lt;strong>&lt;a href="https://github.com/marketplace/actions/notion-site">Notion-Site&lt;/a>&lt;/strong> &lt;strong>，&lt;/strong> 就可以在 &lt;strong>Github&lt;/strong> 中随意使用了，代码如下：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Start on Notion-Site Documents</title><link>https://notion.zhuang.me/docs/start/</link><description>Recent content in Start on Notion-Site Documents</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 15 Feb 2025 00:04:54 +0000</lastBuildDate><atom:link href="https://notion.zhuang.me/docs/start/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting Notion</title><link>https://notion.zhuang.me/docs/start/setting-notion/</link><pubDate>Mon, 02 Jan 2023 12:11:00 +0000</pubDate><guid>https://notion.zhuang.me/docs/start/setting-notion/</guid><description>&lt;h3 id="创建-integration" class=link_owner>
+ 创建 Integration
+ &lt;a href="#%e5%88%9b%e5%bb%ba-integration" class="link icon">
+ &lt;svg>
+ &lt;use xlink:href="#anchor-link">&lt;/use>
+ &lt;/svg>
+ &lt;/a>
+&lt;/h3>
+&lt;p>先为当前 Notion 账号设置 Secret&lt;/p>
+
+&lt;link rel="preload" href="https://notion.zhuang.me/notion-site/bookmark/bookmark.css" as="style">
+&lt;link rel="stylesheet" href="https://notion.zhuang.me/notion-site/bookmark/bookmark.css" data-n-g="">
+&lt;a class="notion-site-bookmark" href="https://www.notion.so/my-integrations" target="_blank" rel="noreferrer" class="">
+ &lt;article class="flex justify-between h-40 rounded border border-gray-400 border-solid">
+ &lt;div class="flex flex-col justify-between p-5 hover:bg-gray-100 w-3/5">
+ &lt;h3 class="text-2xl truncate">Notion – The all-in-one workspace for your notes, tasks, wikis, and databases. &lt;/h3>
+ &lt;p class="overflow-hidden h-12 text-base text-gray-500 notion-site-bookmark-p">
+ A new tool that blends your everyday work apps into one. It&amp;#39;s the all-in-one workspace for you and your team
+ &lt;/p>
+ &lt;div class="flex items-center">
+ 
+ &lt;p class="text-base truncate ml-2 notion-site-bookmark-p">
+ https://www.notion.so/my-integrations
+ &lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="w-2/5 h-full rounded">
+ &lt;img src="https://www.notion.so/images/meta/default.png" class="object-cover w-full h-full" alt="">
+ &lt;/div>
+ &lt;/article>
+&lt;/a></description></item><item><title>How to use Github Action</title><link>https://notion.zhuang.me/docs/start/use-github-action/</link><pubDate>Mon, 02 Jan 2023 18:00:00 +0000</pubDate><guid>https://notion.zhuang.me/docs/start/use-github-action/</guid><description>&lt;p>我们可以在 &lt;strong>&lt;a href="https://github.com/marketplace">Github 商店&lt;/a>&lt;/strong> 中找到 &lt;strong>&lt;a href="https://github.com/marketplace/actions/notion-site">Notion-Site&lt;/a>&lt;/strong> &lt;strong>，&lt;/strong> 就可以在 &lt;strong>Github&lt;/strong> 中随意使用了，代码如下：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">notion-site&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">pkwenda/notion-site@v1.0.3&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Setting Properties</title><link>https://notion.zhuang.me/docs/start/setting-properties/</link><pubDate>Mon, 02 Jan 2023 13:46:00 +0000</pubDate><guid>https://notion.zhuang.me/docs/start/setting-properties/</guid><description>&lt;p>&lt;strong>Notion&lt;/strong> 的属性是可以完全自己定制的，但是在 &lt;strong>Notion-Site&lt;/strong> 中，我们绑定了一些生成网站所必要的属性，这些属性是 Notion-Site 的核心功能，每个属性都用于管理生成的网站，所以，为了以后随时随地管理网站，需要先理解这些属性的意义和规则。&lt;/p>
