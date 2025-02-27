@@ -87,7 +87,7 @@ markdown:
 
 - 2：注意配置文件的主题配置👇
 
-{{< bookmark image="https://opengraph.githubassets.com/f647cb3f8da8760f9d740cca43932796fd91fcf1a27e219206a2e68a8b6d96ce/nonacosa/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/config.toml#L7"  des="This is a document generated entirely based on notion-site - nonacosa/notion-site-doc"  title="notion-site-doc/config.toml at main · nonacosa/notion-site-doc"  >}}
+{{< bookmark image="https://opengraph.githubassets.com/43c81d7a2888f13cef78e4cc85bd75b7c0e65bf53c2a5e8d1ab4180e3bb892c6/nonacosa/notion-site-doc" icon="https://github.githubassets.com/favicons/favicon.svg" url="https://github.com/pkwenda/notion-site-doc/blob/main/config.toml#L7"  des="This is a document generated entirely based on notion-site - nonacosa/notion-site-doc"  title="notion-site-doc/config.toml at main · nonacosa/notion-site-doc"  >}}
 
 不管使用那种主题，都需要添加并使用 ***[notion-site-shortcodes](https://github.com/pkwenda/notion-site-shortcodes)*** 模板作为基础模板，该模板提供了 notion 中的非 markdown 类型的 shortcodes 转换。如不添加此模板，notion 中很多类型无法同步：
 
